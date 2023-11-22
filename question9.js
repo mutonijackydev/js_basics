@@ -1,3 +1,4 @@
+// . Create a function that combines two arrays into one single array. 
 function joining(arra1, arra2) {
     let allname = arra1.concat(arra2);
     console.log("These are combined names:", allname);

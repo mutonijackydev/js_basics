@@ -1,4 +1,4 @@
-console.log("**question 6");
+// Create a function that recieves an array and returns the greates value inside that array
 function findMaxValue(arr) {
     if (arr.length === 0) {
         return "Array is empty";

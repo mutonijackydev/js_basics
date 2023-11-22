@@ -1,3 +1,4 @@
+// Create a function that recieves an array of numbers and return the average of the numbers
 function calculateAverage(numbers) {
     if (numbers.length === 0) {
         return "Array is empty";

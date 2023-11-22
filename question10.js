@@ -1,3 +1,4 @@
+// Create a function that displays a patern like this:
 function displayPattern(rows, cols) {
     for (let i = 0; i < rows; i++) {
         let rowPattern = '';

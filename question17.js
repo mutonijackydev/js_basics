@@ -1,10 +1,16 @@
-// 	Create a function that displays an even number between 1 and 100
-
-function displayEvenNumbers() {
-    for (let i = 2; i <= 100; i += 2) {
-        console.log(i);
+function ageClassification(age) {
+    if (age >= 0 && age <= 12) {
+      return "MIMICRY";
+    } else if (age >= 13 && age <= 19) {
+      return "SELF-DISCOVERY";
+    } else if (age >= 20 && age <= 45) {
+      return "COMMITMENT";
+    } else {
+      return "LEGACY";
     }
-}
-
-// Example usage:
-displayEvenNumbers();
+  }
+  
+  const personAge = 25;
+  console.log(ageClassification(personAge));
+  
+  

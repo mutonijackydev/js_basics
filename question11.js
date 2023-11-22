@@ -4,6 +4,7 @@
 //     }
 //   }
 //  stars(4, 5);
+// 	Create a function that displays a pattern of ones:
 
 function displayPattern(rows) {
     for (let i = rows; i > 0; i--) {
