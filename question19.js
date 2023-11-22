@@ -1,13 +1,13 @@
-// 	Write a function that checks if a number is even
-function even(num)
-{
-    if(num%2==0)
-    {
-        console.log("the enterd number is even");
-    }
-    else
-    {
-        console.log("the enterd number is not even");
-    }
-}
-const answer=even(20);
+function countCharacters(inputString) {
+    // here i'm going to remove spaces from the input string
+    const stringWithoutSpaces = inputString.replace(/\s/g, '');
+  
+    // Count the number of characters in the modified string
+    const numberOfCharacters = stringWithoutSpaces.length;
+  
+    return numberOfCharacters;
+  }
+  const inputString = "Hello World";
+  const numberOfCharacters = countCharacters(inputString);
+  console.log(`The number of characters is: ${numberOfCharacters}`);
+  

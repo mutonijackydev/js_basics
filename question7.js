@@ -1,3 +1,4 @@
+// . Create a function that recieves an array and returns the smallest number from that array
 console.log("**question 6");
 function findMinValue(arr) {
     if (arr.length === 0) {

@@ -1,3 +1,4 @@
+// 3.	Create a function that displays a pattern like this:
 function displayPattern(size) {
     for (let i = 0; i < size; i++) {
         let rowPattern = '';

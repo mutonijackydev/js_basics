@@ -1,3 +1,4 @@
+// Create a function that returns the division of 2 numbers. 
 function calc(num1, num2)
 {
     const div=num1/num2;
